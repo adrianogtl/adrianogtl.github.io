@@ -6,7 +6,8 @@
 	"type": "module",
 	"scripts": {
 		"start": "eleventy --serve",
-		"build": "eleventy"
+		"build": "eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/"
 	},
 	"repository": {
 		"type": "git",
@@ -19,7 +20,7 @@
 		"template"
 	],
 	"author": "adrianogtl",
-	"license": "ISC",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/adrianogtl/adrianogtl.github.io/issues"
 	},
