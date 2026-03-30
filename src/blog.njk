@@ -1,0 +1,12 @@
+---
+title: My blog
+layout: layouts/base.njk
+---
+
+<h1>All blog posts</h1>
+
+<section>
+	{% for post in collections.blog | reverse %}
+		{% include "partials/article-snippet.njk" %}
+	{% endfor %}
+</section>

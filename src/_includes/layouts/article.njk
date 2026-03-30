@@ -1,0 +1,9 @@
+---
+layout: layouts/base.njk
+---
+<article>
+	<time
+		datetime="{{ date | isoDate }}">{{ date | postDate }}</time>
+	<h1>{{ title }}</h1>
+	{{ content | safe }}
+</article>

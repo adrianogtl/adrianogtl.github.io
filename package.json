@@ -1,0 +1,32 @@
+{
+	"name": "11ty-starter",
+	"version": "1.0.0",
+	"description": "Eleventy starter template",
+	"main": "index.html",
+	"type": "module",
+	"scripts": {
+		"start": "eleventy --serve",
+		"build": "eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adrianogtl/11ty-starter.git"
+	},
+	"keywords": [
+		"11ty",
+		"eleventy",
+		"starter",
+		"template"
+	],
+	"author": "adrianogtl",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/adrianogtl/11ty-starter/issues"
+	},
+	"homepage": "https://github.com/adrianogtl/11ty-starter#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "^3.1.5",
+		"@picocss/pico": "^2.1.1",
+		"luxon": "^3.7.2"
+	}
+}
