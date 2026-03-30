@@ -1,26 +1,27 @@
 body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 main {
-  flex: 1;
+	flex: 1;
 }
 
 article {
-  padding: 0;
-  box-shadow: none;
+	padding: 0;
+	box-shadow: none;
+	background: none;
 }
 
 .float-right {
-  float: right;
+	float: right;
 }
 
 .container:not(.wide) {
-  max-width: clamp(500px, 40vw, 1400px);
+	max-width: clamp(500px, 40vw, 1400px);
 }
 
 .center {
-  text-align: center;
+	text-align: center;
 }
