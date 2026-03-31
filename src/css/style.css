@@ -14,6 +14,14 @@ article {
 	background: none;
 }
 
+/*
+Pico CSS: fix nav dropdown issue in Firefox
+https://github.com/picocss/pico/issues/701#issuecomment-3367167118
+ */
+nav details.dropdown {
+	display: inline-block;
+}
+
 .float-right {
 	float: right;
 }
