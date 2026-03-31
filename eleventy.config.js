@@ -8,11 +8,12 @@ export default function (eleventyConfig) {
 	// Template formats
 	eleventyConfig.setTemplateFormats(["md", "njk"]);
 
-	// CSS
+	// Passthrough
 	eleventyConfig.addPassthroughCopy({
 		"node_modules/@picocss/pico/css/pico.min.css": "pico.min.css",
 	});
-	eleventyConfig.addPassthroughCopy("src/style.css");
+	eleventyConfig.addPassthroughCopy("src/css");
+	eleventyConfig.addPassthroughCopy("src/js");
 
 	// Collections
 	eleventyConfig.addCollection("blog", (collection) => {
