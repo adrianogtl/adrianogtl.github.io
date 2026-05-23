@@ -18,7 +18,7 @@ export default function (eleventyConfig) {
 	// Collections
 	eleventyConfig.addCollection("blog", (collection) => {
 		return collection.getFilteredByGlob("src/blog/*.md").map((post) => {
-			// Post date fallback in case of forget to put the date in the frontmatter
+			// Post date fallback if no date in frontmatter
 			if (!post.data.date) {
 				post.data.date = post.date;
 			}
@@ -27,7 +27,7 @@ export default function (eleventyConfig) {
 	});
 
 	// Filters
-	eleventyConfig.addFilter("postDate", (date) => {
+	eleventyConfig.addFilter("formatDate", (date) => {
 		return DateTime.fromJSDate(date).toUTC().toLocaleString(DateTime.DATE_FULL);
 	});
 	eleventyConfig.addFilter("isoDate", (date) => {

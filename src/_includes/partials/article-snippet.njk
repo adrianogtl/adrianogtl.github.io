@@ -4,7 +4,7 @@
 		<time
 			class="float-right"
 			datetime="{{ (post.data.date or post.date) | isoDate }}">
-			{{ (post.data.date or post.date) | postDate }}
+			{{ (post.data.date or post.date) | formatDate }}
 		</time>
 	</div>
   <hr>

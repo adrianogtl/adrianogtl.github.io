@@ -1,6 +1,5 @@
 ---
 title: "Hello, world!"
-date: 2026-03-30
 ---
 
 This is my first blog post! yay!
