@@ -13,26 +13,4 @@ layout: layouts/base.njk
 
 ## Tech stack
 
-Ranked by proficiency, from left to right (higher -> lower).
-
-Average skill level by category: ![High level](https://img.shields.io/badge/High-%2300BF05.svg?style=flat&logoColor=white), ![Medium level](https://img.shields.io/badge/Medium-%23FFF400.svg?style=flat&logoColor=white) or ![Low level](https://img.shields.io/badge/Low-%23D60000.svg?style=flat&logoColor=white)
-
-### Languages ![High level](https://img.shields.io/badge/High-%2300BF05.svg?style=flat&logoColor=white)
-
-[![Languages](https://skillicons.dev/icons?i=js,html,css,lua)](https://skillicons.dev)
-
-### Frameworks, Libraries & Bundlers ![Low level](https://img.shields.io/badge/Low-%23D60000.svg?style=flat&logoColor=white)
-
-[![Frontend](https://skillicons.dev/icons?i=nodejs,jest,webpack,react,vite,bootstrap)](https://skillicons.dev)
-
-### Tools ![Medium level](https://img.shields.io/badge/Medium-%23FFF400.svg?style=flat&logoColor=white)
-
-[![Tools](https://skillicons.dev/icons?i=vscode,git,github,npm,bash)](https://skillicons.dev)
-
-### Systems ![High level](https://img.shields.io/badge/High-%2300BF05.svg?style=flat&logoColor=white)
-
-[![Systems](https://skillicons.dev/icons?i=ubuntu,debian,linux)](https://skillicons.dev)
-
-### Databases ![Low level](https://img.shields.io/badge/Low-%23D60000.svg?style=flat&logoColor=white)
-
-[![Databases](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev)
+![stack](https://skillicons.dev/icons?i=html,css,js,react,jest,ubuntu,vscode,git,github,npm,bash)
