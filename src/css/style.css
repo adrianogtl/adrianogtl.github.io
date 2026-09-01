@@ -1,3 +1,7 @@
+:root {
+	--pico-font-size: 1rem;
+}
+
 body {
 	height: 100vh;
 	display: flex;
@@ -27,7 +31,7 @@ nav details.dropdown {
 }
 
 .container:not(.wide) {
-	max-width: clamp(500px, 40vw, 1400px);
+	max-width: clamp(600px, 40vw, 1400px);
 }
 
 .center {
